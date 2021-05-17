@@ -1,0 +1,135 @@
+html,
+body {
+    height: 100%;
+}
+.wrapper {
+    display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+.main {
+    flex: 1 0 auto;
+    background-color: rgb(213, 234, 236);
+}
+.footer {
+    flex: 0 0 auto;
+    background-color: rgb(30, 31, 31);
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+body {
+    font-size: 18px;
+    line-height: 24px;
+    background-color: rgb(236, 249, 250);
+}
+
+
+
+.header__wrapper {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.logo {
+    font-size: 35px;
+    color: cornflowerblue;
+}
+.header__menu {
+}
+.header__menu-list {
+}
+.header__menu-link {
+    font-size:  18px;
+    line-height: 27px;
+    margin-left: 20px;
+    color: cornflowerblue;
+}
+.main__wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.content {
+    width: 75%;
+}
+.content__title {
+    text-align: center;
+    font-size: 24px;
+    line-height: 27px;
+    margin-bottom: 10px;
+}
+.content__text {
+    font-size: 19px;
+    line-height: 25px;
+    font-style: italic;
+    margin-bottom: 20px;
+    padding: 0 50px;
+}
+.content__inner {
+}
+.content__box {
+    margin-bottom: 25px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 20px;
+}
+.content__box-text {
+    margin-bottom: 15px;
+}
+.content__box-desc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content__box-subject {
+}
+.content__box-date {
+}
+.content__pagination {
+    text-align: center;
+}
+.pagination__btn {
+    margin: 5px;
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: darkgrey;
+}
+.sidebar {
+    width: 20%;
+}
+.sidebar__title {
+    text-align: center;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 25px;
+}
+.sidebar__menu {
+    margin-left: 40px;
+}
+.sidebar__menu-list {
+    margin-bottom: 10px;
+}
+.sidebar__menu-link {
+    font-size: 20px;
+    line-height: 28px;
+
+    color: rgb(6, 22, 255);
+}
+
+.footer__inner {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer__text {
+    font-size: 24px;
+    color: darkgrey;
+}
